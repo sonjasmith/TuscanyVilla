@@ -8,7 +8,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
     <link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
     <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
     <script src="Bootstrap/js/bootstrap.js"></script>
@@ -17,7 +16,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    
     <link href="StyleSheet.css" rel="stylesheet" />
-
 
 </head>
 <body>
@@ -31,7 +29,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            </div>
+            </div>  
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Logo</a></li>
@@ -44,39 +42,215 @@
         </div>
     </nav>
 
-    <!--Header-->
-    <div class="page-header">
-        <div class="container-fluid">
-                <div class="col-md-9">
-                    <div class="custDiv"><img id="imgHeader" src="images/tuscany-villas-sant-anna.jpg" class="img-responsive" alt="siteHeader"></div>
-                </div>
-                <div class="col-md-3">
-                    <div class="custDiv"><img id="imgMap" src="images/Versilia.jpg" class="img-responsive" alt="map"></div>
+    <!--Section 1 Header-->
+    <div class="row container-fluid">
+        <div class="col-md-9 bgLeft">
+            <!--<img src="images/tuscany-villas-sant-anna.jpg" alt="sant anna villa" class="img-responsive">-->
+                <div class="villa_heading">
+                    <h1>Tuscany Villa</h1>
+                    <p>We specialize in relaxation</p>
                 </div>
             </div>
-        </div> 
-    
-    <!--Sections-->
+            <div class="col-md-3 bgRight">
+                    <!--<img src="images/Versilia.jpg" alt="map of versilia" class="img-responsive">-->
+                </div>
+            </div>
+  
+    <!--Section 2 Locations-->
     <div class="locations-header">
-        <div class="container-fluid">
-            <h2>LOCATIONS</h2>
-            <p>Some places for you to go</p>
-                <div class="col-md-9">
-                    <h3>Location #1</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.                    
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img id="imgMountain"src="images/italy-mountain-villa.jpeg" class="img-responsive" alt="mountain">
-                </div>
-                <div class="button">
-                    <p><a href="#" class="btn btn-primary" role="button">Reserve Now!</a></p>
-                </div>
+        <div class="row container-fluid locations">
+            <div class="location-title">
+                <h3>LOCATIONS</h3>
+                <h5>Some places for you to go</h5>
+            </div>
+            <div class="col-md-9">
+                <h3>Location #1</h3>
+                <p class="location1-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img id="imgMountain" src="images/italy-mountain-villa.jpeg" class="img-responsive" alt="mountain">
+            </div>
+            <div class="button">
+                <p><a href="#" class="btn btn-primary" role="button">Reserve Now!</a></p>
+            </div>
+
+            <div class="col-md-3">
+                <img id="imgMountain" src="images/modern-villa.jpeg" class="img-responsive" alt="mountain">
+            </div>
+
+            <div class="col-md-9">
+                <h3>Location #2</h3>
+                <p class="location2-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="button">
+                <p><a href="#" class="btn btn-primary" role="button">Check It Out!</a></p>
             </div>
         </div>
 
+        <div class="col-md-9">
+            <h3>Location #3</h3>
+            <p class="location3-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img id="imgMountain" src="images/tuscany-grape-field-nature-51947.jpeg" class="img-responsive" alt="gra">
+        </div>
+        <div class="button">
+            <p><a href="#" class="btn btn-primary" role="button">Join Us!</a></p>
+        </div>
+
+        <!--Section 3 Amenities-->
+        <div class="row container-fluid amenities">
+            <div class="amenities-title">
+                <h3>AMENITIES</h3>
+                <h5>Some stuff for you to enjoy</h5>
+            </div>
+            <div class="col-md-4">
+                <h2>RECEPTIONS</h2>
+                <p>WHAT SETS US APART</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="button">
+                <p><a href="#" class="btn btn-primary" role="button">Check It Out!</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>RECEPTIONS</h2>
+        <p>WHAT SETS US APART</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="button">
+        <p><a href="#" class="btn btn-primary" role="button">Check It Out!</a></p>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+        <h2>ENJOY THE VIEWS</h2>
+        <p>WHAT SETS US APART</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="button">
+        <p><a href="#" class="btn btn-primary" role="button">Check It Out!</a></p>
+    </div>
+    <!--</div>-->
+
+    <!--Section 4 Reviews-->
+    <div class="row container-fluid">
+        <div class="reviews-title">
+            <h3>REVIEWS</h3>
+            <h5>What our customers say</h5>
+            <p class="review"><italic>"I love it! I love it!"</italic><p>Stella, Avid Napper</p>
+
+            <!--This is where the carousel will go-->
+
+            <div class="row container-fluid">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+
+                            <img src="images/tuscany-villas-sant-anna.jpg" alt="Los Angeles" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Los Angeles</h3>
+                                <p>LA is always so much fun!</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Chicago</h3>
+                                <p>Thank you, Chicago!</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+
+                            <img src="images/3b-348x348.jpg" alt="New York" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>New York</h3>
+                                <p>We love the Big Apple!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!--<!--Section 5 Contact-->
+    <div class="row container-fluid">
+        <!--<div class="col-md-6">-->
+        <div class="contact-title">
+            <h3>CONTACT</h3>
+            <h5>We've got the answers</h5>
+        </div>
+
+        <div class="row col-md-6 contact">
+            <p class="contact-text">
+                Contact us and we'll get back to you within 24 hours.<br>
+                <!--<i class="glyphicon glyphicon-map-marker"></i>-->
+                <span class="glyphicon glyphicon-map-marker"></span>Cleveland, OH<br>
+                <span class="glyphicon glyphicon-phone"></span>555-555-1212<br>
+                <span class="glyphicon glyphicon-envelope"></span>name@email.com<br>
+            </p>
+        </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+ 
+    <!--Section 6 Footer-->
+    <div class="row container-fluid footer">
+        <div class="footer-text">
+            <span class="glyphicon glyphicon-menu-up" a href=""></span>
+            <p>
+                Sonja Smith<br>
+                Not at all copyrighted
+            </p>
+        </div>
+    </div>
 </body>
 </html>

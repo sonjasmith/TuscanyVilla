@@ -1,15 +1,110 @@
 ﻿body {
     margin: 0;
-    padding-top: 0px;
+    padding: 0;
     background-color: #fff;
-}
-
-#navBar{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-#imgHeader{
-    margin: 0;
+/*NavBar*/
+nav#menu.navbar.navbar-static-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    background-color: #555555;
+    /*text-align: right;*/
+}
 
+#menu a{
+    color: #ffffff;
+    text-align: right;
+}
+
+h1{
+    text-align:center;
+    color: #fff;
+     
+}
+
+/*Section 1 Header*/
+.villa_heading {
+    text-align: center;
+    color: white;
+    position:absolute;
+    width:100%;
+    top:0;
+    /*background-color:rgba(255, 255, 255, 0.5);*/
+}
+
+.bgLeft {
+    background-image:url(images/tuscany-villas-sant-anna.jpg);
+    background-size: cover;
+    min-height: 372px;
+}
+
+.bgRight{  
+    background-image:url(images/Versilia.jpg);
+    background-size: cover;
+    min-height: 372px;
+}
+
+.location-title {
+    color: #ffffff;
+    background-color: #555555;
+    text-align: center;
+    padding: 10px;
+}
+
+.location1-text.location3-text {
 
 }
+
+.location2-text {
+
+}
+
+/*Amenities*/
+.amenities-title {
+    color: #ffffff;
+    background-color: #555555;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*Reviews*/
+.reviews-title {
+    color: #ffffff;
+    background-color: #555555;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Contact*/
+.contact-title {
+    color: #ffffff;
+    background-color: #555555;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-text {
+    text-align: left;
+    margin:auto;
+    padding: 10px;
+    text-decoration-color: #555555;
+}
+
+
+/*Footer*/
+.footer-text {
+    color: #ffffff;
+    background-color: #555555;
+    text-align: center;
+    padding: 10px;
+}
+
+/*.column-md-4 {
+    background-image: url('images/3b-348x348.jpg');
+    color: #ffffff;
+}*/
