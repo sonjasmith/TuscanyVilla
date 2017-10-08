@@ -3,7 +3,6 @@
     padding: 0;
     background-color: #fff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 /*NavBar*/
@@ -39,13 +38,22 @@ h1{
 .bgLeft {
     background-image:url(images/tuscany-villas-sant-anna.jpg);
     background-size: cover;
-    min-height: 372px;
+    min-height: 300px;
 }
 
 .bgRight{  
     background-image:url(images/Versilia.jpg);
     background-size: cover;
-    min-height: 372px;
+    min-height: 300px;
+}
+
+/*Locations*/
+.location1 {
+    padding: 30px;
+}
+
+.location1img{
+    padding:30px 30px 0px 10px;
 }
 
 .location-title {
@@ -59,10 +67,28 @@ h1{
 
 }
 
+.location2 {
+    background-color: #555555;
+    padding: 30px;
+}
 .location2-text {
-
+    color: #ffffff;
 }
 
+.button1, .button3 {
+    padding: 30px;
+    /*margin: 0;*/
+}
+
+/*.button3  {
+    padding: 30px;
+}*/
+
+.button2 p a.btn-primary {
+    margin: 10px;
+    color: #333333;
+    background-color:#fefefe;
+}
 /*Amenities*/
 .amenities-title {
     color: #ffffff;
