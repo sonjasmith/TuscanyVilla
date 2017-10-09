@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 /*NavBar*/
@@ -14,8 +14,6 @@ nav#menu.navbar.navbar-static-top {
     /*text-align: right;*/
 }
 
-
-
 #menu a{
     color: #ffffff;
     text-align: right;
@@ -23,8 +21,7 @@ nav#menu.navbar.navbar-static-top {
 
 h1{
     text-align:center;
-    color: #fff;
-     
+    color: #fff;    
 }
 
 /*Section 1 Header*/
@@ -34,7 +31,6 @@ h1{
     position:absolute;
     width:100%;
     top:0;
-    /*background-color:rgba(255, 255, 255, 0.5);*/
 }
 
 .bgLeft {
@@ -86,7 +82,7 @@ div.location2 {
     padding: 30px;
     margin: 0;
     border-radius: 0px;
-
+    border-style: none;
 }
 
 .button2 p a.btn-primary {
@@ -94,6 +90,7 @@ div.location2 {
     background-color:#fefefe;
     border-radius: 0px;
     border-color: none;
+    border-style: none;
 
 }
 
@@ -112,7 +109,12 @@ div.location2 {
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
+}
 
+.mid-col-1, .mid-col-3, .left-col-2, .right-col-2 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 100px;
 }
 .amenities-title {
     color: #ffffff;
@@ -139,7 +141,6 @@ div.location2 {
     background-image: url(images/3b-348x348.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
     min-height: 348px;
     background-color:rgba(255, 255, 255, 1.0);
 }
@@ -148,7 +149,6 @@ div.location2 {
     background-image: url(images/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
     min-height: 348px;
     background-color:rgba(255, 255, 255, 1.0);
 }
@@ -157,7 +157,6 @@ div.location2 {
     background-image: url(images/314-348x348.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
     min-height: 348px;
     background-color:rgba(255, 255, 255, 1.0);
 }
@@ -166,7 +165,6 @@ div.location2 {
     background-image: url(images/42-348x348.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
     min-height: 348px;
     background-color:rgba(255, 255, 255, 1.0);
 }
@@ -175,7 +173,6 @@ div.location2 {
     background-image: url(images/Villa-Vanna-231-348x348.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
     min-height: 348px;
     background-color:rgba(255, 255, 255, 1.0);
 }
@@ -243,6 +240,14 @@ input#name.form-control, #email {
 
 textarea#comment.form-control {
     margin-top: 10px;
+}
+
+.btn-default {
+        background-color: #555555;
+        color: #ffffff;
+        border-radius: 0;
+        border-style: none;
+        border-color: none;
 }
 
 /*Section 6 Footer*/
