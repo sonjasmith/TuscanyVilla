@@ -98,20 +98,14 @@ div.location2 {
 }
 
 /*Section 3 Amenities*/
+
+
 .transparency {
-    background-color: rgba(0, 0, 0, .5);
-    margin-top: 150px;
-    height: 50px;
-    /*max-width: 150px;*/
-    padding: 20px, 20px, 20px, 20px;
-    /*max-height: 80px;
-    max-width: 270px;*/
+    background-color: rgba(255, 255, 255, .5);
 }
 
-.left-col-1, .left-col-3, .mid-col-2, .right-col-1, .right-col-3 {
-    color: #ffffff;
-    text-align: center;
-    vertical-align: middle;
+.h4 {
+ text-decoration-color: #ffffff;
 
 }
 .amenities-title {
@@ -121,71 +115,36 @@ div.location2 {
     padding: 10px;
 }
 
-.rowOne, .rowThree {
+.amenities-grid {
     background-color: #ffffff;
-    padding: 30px, 30px, 0, 30px;
+    padding: 30px;
+    /*background-color:rgba(255, 255, 255, 0.5);*/
 }
 
-.rowTwo {
-    padding: 0px, 30px, 0, 30px;
-}
-
-.h4 {
+#descriptLeft {
     text-align: center;
     vertical-align: middle;
 }
 
-.left-col-1 {
+.topLeftCol, .btmLeftCol {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    min-height: 348px;
+    background-color:rgba(255, 255, 255, 1.0);
+}
+
+#topLeftcol {
     background-image: url(images/3b-348x348.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: center;*/
-    min-height: 348px;
-    background-color:rgba(255, 255, 255, 1.0);
 }
 
-.left-col-3 {
-    background-image: url(images/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: center;*/
-    min-height: 348px;
-    background-color:rgba(255, 255, 255, 1.0);
+#btmLeftCol {
+    background-image: url(images/Villa-Rucellai-Toscani-2812-2-348x348.jpg)
 }
 
-.mid-col-2 {
-    background-image: url(images/314-348x348.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: center;*/
-    min-height: 348px;
-    background-color:rgba(255, 255, 255, 1.0);
-}
 
-.right-col-1 {
-    background-image: url(images/42-348x348.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: center;*/
-    min-height: 348px;
-    background-color:rgba(255, 255, 255, 1.0);
-}
+/**/
 
-.right-col-3 {
-    background-image: url(images/Villa-Vanna-231-348x348.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-position: center;*/
-    min-height: 348px;
-    background-color:rgba(255, 255, 255, 1.0);
-}
-
-a.btn.btn-primary, amenities {
-    background-color: #555555;
-    margin: 0;
-    border-radius: 0px;
-    border-color: none;
-}
 
 /*Section 4 Reviews*/
 .reviews-title {
